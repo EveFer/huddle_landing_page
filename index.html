@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/styles.css">
   <script src="https://kit.fontawesome.com/8cad82abe9.js" crossorigin="anonymous"></script>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -21,66 +21,61 @@
 </head>
 
 <body style="background-color: blueviolet; background-image: url(images/bg-desktop.svg);">
-
-  <header>
-    <div class="row">
+  
+  <div class="container-fluid mx-3">
+  
+    <div class="row pl-3 pt-3">
       <div class="col-12 col-md-12">
       
-        <img src="images/logo.svg" alt="" style="width: 15vw;">
+        <img src="images/logo.svg" alt="" >
 
     </div>
     </div>
-  </header>
+  
 
-  <div class="container">
-    <div class="row">
+  
+    <div class="row mt-5 margin_button">
       <div class="col-12 col-md-6">
 
-        <img class="img-fluid" src="images/illustration-mockups.svg" alt="">
+        <img class="img-fluid " src="images/illustration-mockups.svg" alt="">
 
       </div>
 
-      <div class="col-12 col-md-6">
+      <div class="col-12 col-md-6 d-flex">
 
-        <div class="card">
+        <div class="card bg-transparent border-0">
           
-          <div class="card-body">
+          <div class="card-body d-flex flex-column align-items-center align-items-md-start">
             <h5 class="card-title">Build The Community</h5>
             <h5 class="card-title">Your Fans Will Love</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" style="border-radius: 15px;" class="btn btn-primary">Go somewhere</a>
+            <button href="#" class="button_register">Register</button>
           </div>
 
         </div>
       
       </div>
     </div>
-  </div>
 
-  <!-- Footer -->
-<footer class="page-footer font-small cyan darken-3">
-
-  <!-- Footer Elements -->
-  <div class="container">
-
-    <!-- Grid row-->
-    <div class="row">
+     <!-- Grid row-->
+     <div class="row icons_fti">
 
       <!-- Grid column -->
-      <div class="col-12 col-md-12 py-5" style="flex-direction: row-reverse;">
+      <div class="col-12 col-md-12 py-5 d-flex justify-content-md-end justify-content-center">
         <div class="mb-5">
 
           <!-- Facebook -->
           <a class="fb-ic">
-            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            <!--<i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>-->
+            <i class="fab fa-facebook mr-3 style_color_icon"></i>
           </a>
           <!-- Twitter -->
           <a class="tw-ic">
-            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            <i class="fab fa-twitter fa-lg white-text mr-3 style_color_icon"> </i>
           </a>
           <!--Instagram-->
           <a class="ins-ic">
-            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            <i class="fab fa-instagram fa-lg white-text mr-3 style_color_icon"> </i>
           </a>
         </div>
       </div>
@@ -90,12 +85,7 @@
     <!-- Grid row-->
 
   </div>
-  <!-- Footer Elements -->
 
-</footer>
-<!-- Footer -->
-  
-  
   
   <script
   src="https://code.jquery.com/jquery-3.4.1.min.js"
